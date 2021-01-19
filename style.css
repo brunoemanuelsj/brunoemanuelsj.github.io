@@ -61,7 +61,7 @@ body{
     
 }
 
-.about, .projects{
+.aboutLink, .projectsLink{
     color: white;
     text-decoration: none;
     box-sizing: border-box;

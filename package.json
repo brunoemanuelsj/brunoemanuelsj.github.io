@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/brunoemanuelsj/brunoemanuelsj.github.io/issues"
   },
-  "homepage": "https://github.com/brunoemanuelsj/brunoemanuelsj.github.io#readme"
+  "homepage": "https://github.com/brunoemanuelsj/brunoemanuelsj.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
 }
