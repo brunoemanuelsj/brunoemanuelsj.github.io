@@ -15,11 +15,11 @@ body{
 }
 
 ._header{
-    display: flex;
     height: 60px;
     width: 100%;
     background-color: rgb(21, 21, 22);
-    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
 }
 
 ._toggle{
@@ -33,7 +33,7 @@ body{
     border: solid 2px white;
     border-radius: 50%;
     cursor: pointer;
-    
+    flex-shrink: 0;
 }
 
 ._title{
@@ -45,13 +45,29 @@ body{
 ._content{
     height: 100%;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(241, 240, 255);
 }
 
 ._toggle:hover{
-    border: solid 2px  beige;
+    border: solid 2px lightskyblue;
 }
 
-.item-1{
+.menu{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
     
+}
+
+.about, .projects{
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
 }
