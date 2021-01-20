@@ -20,6 +20,8 @@ body{
     background-color: rgb(21, 21, 22);
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 ._toggle{
@@ -29,45 +31,29 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 5px 0 5px 10px;
     border: solid 2px white;
     border-radius: 50%;
     cursor: pointer;
     flex-shrink: 0;
 }
 
-._title{
-    font-family: 'Andika New Basic', sans-serif;
-    color: white;
-    font-size: 2em;
-}
-
-._content{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(241, 240, 255);
+._toggle1{
+    width: 50px;
+    height: 50px;
 }
 
 ._toggle:hover{
-    border: solid 2px lightskyblue;
+    border: solid 2px black;
 }
 
-.menu{
-    display: flex;
-    width: 100%;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-
-.aboutLink, .projectsLink{
+.portifolio{
     color: white;
-    text-decoration: none;
-    box-sizing: border-box;
-    padding: 10px;
-    background-color: rgb(48, 48, 48);
-    border-radius: 5px;
-    width: 100px;
     text-align: center;
+    font-size: 2em;
+}
+
+
+.about{
+    color: black;
+    font-size: 5em;
 }
