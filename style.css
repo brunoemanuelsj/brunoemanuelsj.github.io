@@ -12,6 +12,7 @@ html, body{
 body{
     display: flex;
     flex-direction: column;
+    background: linear-gradient(to right, rgb(117, 127, 154), rgb(215, 221, 232));
 }
 
 ._header{
@@ -39,7 +40,6 @@ body{
 
 ._toggle1{
     width: 50px;
-    height: 50px;
 }
 
 ._toggle:hover{
@@ -51,6 +51,7 @@ body{
     text-align: center;
     font-size: 2em;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
@@ -74,13 +75,14 @@ body{
     font-size: 1.5em;
     color: white;
     background: linear-gradient(to right, rgb(15, 12, 41), rgb(48, 43, 99), rgb(36, 36, 62));
-    width: 98%;
-    height: 80px;
-    border-radius: 5px;
+    width: 150px;
+    height: 150px;
     margin: 10px 0 10px 0;
     align-items: center;
     display: flex;
     justify-content: center;
+    text-align: center;
+    border-radius: 3px;
 }
 
 
