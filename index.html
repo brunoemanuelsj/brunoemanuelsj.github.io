@@ -29,6 +29,13 @@
                 if (location.hash === '#about') {
                     $('.about').css("display", "block")
                     $('.aboutLink').css("background-color", "beige")
+                    $('.projects').css("display", "none")
+                }
+
+                if (location.hash === '#corona') {
+                    $('.about').css("display", "none")
+                    $('.projects').css("display", "none")
+                    $('.corona').css("display", "block")
                 }
             }
 
@@ -44,7 +51,16 @@
         <div class="_toggle1"></div>
     </div>
     
-    <div class="about" style="display: none;"><!-- https://www.vagas.com.br/servicos/curriculo --></div>
+    <div class="projects">
+        <a href="#corona" class="p-item">Corona game</a>
+    </div>
+
+    <iframe class="corona" src="https://brunoemanuelsj.github.io/Corona-game/" frameborder="0" style="display: none; width: 100%; height: 100%;"></iframe>
+
+    <div class="about" style="display: none;">
+        <!-- https://www.vagas.com.br/servicos/curriculo -->
+        <div class="hi">Olá eu sou o Bruno, tenho 22 anos e moro em Goiânia, Goiás;</div> 
+    </div>
 </body>
 
 </html>

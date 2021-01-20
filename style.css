@@ -50,10 +50,40 @@ body{
     color: white;
     text-align: center;
     font-size: 2em;
+    cursor: pointer;
 }
 
 
 .about{
     color: black;
-    font-size: 5em;
+    font-size: 1em;
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-item{
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1.5em;
+    color: white;
+    background: linear-gradient(to right, rgb(15, 12, 41), rgb(48, 43, 99), rgb(36, 36, 62));
+    width: 98%;
+    height: 80px;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.p-item:hover{
+    background: linear-gradient(to right, rgb(55, 59, 68), rgb(66, 134, 244));
 }
